@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://ih0.redbubble.net/image.106020057.5369/flat,800x800,075,t.u2.jpg");
+}
+
+.title{
+    background-color: darkgrey;
+    color:white;
+    padding-bottom:25px;
+    margin-bottom:25px;
+}
+.instructions{
+    background-color: white;
+    padding-bottom: 25px;
+    padding-top:25px;
+    margin-bottom:25px;
+}
+
+.random_number{
+    background-color: beige;
+    margin-right: 5px;
+}
+
+.wins_losses{
+    background-color: darkgray;
+    color:white;
+}
+
+.total_score{
+    background-color: darkgrey;
+    color:white;
+}
+
+.buttons{
+    margin-top:20px;
+    margin-bottom:20px;
+}
