@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
@@ -39,11 +40,11 @@
 
 <div class="row">
     <div class="random_number col-md-3">
-        <p id="counter">Counter: </p>
+        <p id="computerNumber"></p>
     </div>
     <div class="wins_losses col-md-2">
-        <p>Wins:</p>
-        <p>Losses:</p>
+        <p id="wins">Wins:</p>
+        <p id="losses">Losses:</p>
     </div>
 </div>
 
@@ -70,53 +71,6 @@
     </div>
 </div>
 
-<div class="row">
-    <div class="points_scored col-md-3"></div>
 </div>
 
-</div>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript">
-
-    //Load a random number to .random_number class when user loads page
-$(document).ready(function() {
-    $("#counter").on("load",function(){
-        var randomComputerNumber = Math.floor((Math.random() * 120) + 19);
-        $("#counter").hmtl(randomComputerNumber);
-    });
-
-
-    //Assign random numbers to crystal buttons
-    $(".button1").on("click",function(){
-        var randomButtonNumber = Math.floor((Math.random() * 120) + 19);
-        $(".button1").hmtl(randomButtonNumber);
-
-    $(".button2").on("click",function(){
-        var randomButtonNumber = Math.floor((Math.random() * 120) + 19);
-        $(".button2").hmtl(randomButtonNumber);
-
-    $(".button3").on("click",function(){
-        var randomButtonNumber = Math.floor((Math.random() * 120) + 19);
-        $(".button3").hmtl(randomButtonNumber);
-
-    $(".button4").on("click",function(){
-        var randomButtonNumber = Math.floor((Math.random() * 120) + 19);
-        $(".button4").hmtl(randomButtonNumber);
-
-
-    //When user clicks each button, add that buttons total to the user's score counter
-        if (){
-        
-        }
-    }
-    //If user matches the .random_number class, user wins. If score goes above .random_number value, user loses.
-    //If the user wins or loses, increase the wins/losses counter
-    //When the player wins or loses, the game will reset. and four new values will be assigned to crystal buttons
-
-});
-
-
-
-</script>
 </body>
