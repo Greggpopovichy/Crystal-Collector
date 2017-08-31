@@ -36,7 +36,7 @@ $(document).ready(function){
 
 $(".button1").on('click', function(){
     userScore = userScore + crystal1;
-    console.log("New userCount= " + userScore);
+    console.log("New userScore= " + userScore);
 
     $(".total_score").text(userScore);
         if(userScore === random){
@@ -60,7 +60,7 @@ $(".button2").on('click', function(){
     });
 (".button3").on('click', function(){
         userScore = userScore + crystal3;
-        console.log("New userCount= " + userScore);
+        console.log("New userScore= " + userScore);
         $(".total_score").text(userScore);
 
         if(userScore === random){
@@ -73,7 +73,7 @@ $(".button2").on('click', function(){
 
 (".button4").on('click', function(){
         userScore = userScore + crystal4;
-        console.log("New userCount= " + userScore);
+        console.log("New userScore= " + userScore);
         $(".total_score").text(userScore);
 
         if(userScore === random){
